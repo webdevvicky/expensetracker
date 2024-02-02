@@ -8,7 +8,6 @@ import AddProduct from "./components/add_new/AddProduct";
 
 import AddCatagory from "./components/add_new/AddCatagory";
 import Adduser from "./components/add_new/Adduser";
-import Loader from "./components/userinterface/Loader";
 
 function App() {
   return (

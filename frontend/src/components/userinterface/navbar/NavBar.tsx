@@ -4,7 +4,7 @@ const NavHome = () => {
     <div className="py-3 border-bottom ">
       <nav className="navbar navbar-expand-lg navbar-light">
         <div className="container">
-          <h1 className="navbar-brand">hello world</h1>
+          <h1 className="navbar-brand">Expense Tracker</h1>
           <button
             className="navbar-toggler"
             type="button"

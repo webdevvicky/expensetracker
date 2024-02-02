@@ -53,7 +53,7 @@ const ExpenceTable = () => {
     const updatedstatus = { _id: data._id, status: !data.status };
     productService
       .update(updatedstatus)
-      .then((res) => {
+      .then(() => {
         setDatalist((predata) =>
           predata.map((item) =>
             item._id == data._id
@@ -62,7 +62,7 @@ const ExpenceTable = () => {
           )
         );
       })
-      .catch((err) => {
+      .catch(() => {
         window.alert("error");
       });
     console.log(updatedstatus);
